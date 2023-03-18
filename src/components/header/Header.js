@@ -118,7 +118,7 @@ const Header = () => {
                         </li>
                       </ul>
                     </li>
-                    <li class="dropdown">
+                    <li className="dropdown">
                       <a href="#">blog</a>
                       <ul>
                         <li>
@@ -129,7 +129,7 @@ const Header = () => {
                         </li>
                       </ul>
                     </li>
-                    <li class="dropdown">
+                    <li className="dropdown">
                       <a href="#">pages</a>
                       <ul>
                         <li>
@@ -156,38 +156,38 @@ const Header = () => {
                 </div>
               </nav>
             </div>
-            <div class="nav-search ms-xl-auto py-10">
-              <button class="far fa-search"></button>
-              <form action="#" class="hide">
+            <div className="nav-search ms-xl-auto py-10">
+              <button className="far fa-search"></button>
+              <form action="#" className="hide">
                 <input
                   type="text"
                   placeholder="Search"
-                  class="searchbox"
+                  className="searchbox"
                   required=""
                 />
                 <button
                   type="submit"
-                  class="searchbutton far fa-search"
+                  className="searchbutton far fa-search"
                 ></button>
               </form>
             </div>
-            <div class="menu-btns">
-              <a href="contact.html" class="theme-btn">
-                Get a Quote <i class="fas fa-long-arrow-right"></i>
+            <div className="menu-btns">
+              <a href="contact.html" className="theme-btn">
+                Get a Quote <i className="fas fa-long-arrow-right"></i>
               </a>
             </div>
-            <div class="social-style-two">
+            <div className="social-style-two">
               <a href="#">
-                <i class="fab fa-facebook-f"></i>
+                <i className="fab fa-facebook-f"></i>
               </a>
               <a href="#">
-                <i class="fab fa-twitter"></i>
+                <i className="fab fa-twitter"></i>
               </a>
               <a href="#">
-                <i class="fab fa-instagram"></i>
+                <i className="fab fa-instagram"></i>
               </a>
               <a href="#">
-                <i class="fab fa-linkedin-in"></i>
+                <i className="fab fa-linkedin-in"></i>
               </a>
             </div>
           </div>

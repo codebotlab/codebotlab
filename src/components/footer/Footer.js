@@ -54,7 +54,7 @@ const Footer = () => {
                 Sed perspiciatis unde omnste natus error voluptatem accusante.
               </p>
               <form action="#">
-                <label for="email">
+                <label htmlFor="email">
                   <i className="far fa-envelope"></i>
                 </label>
                 <input
