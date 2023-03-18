@@ -4,7 +4,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
 
 const Testimonial = () => {
-  var settings = {
+  const settings = {
     dots: true,
     infinite: true,
     speed: 500,
