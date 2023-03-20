@@ -1,7 +1,7 @@
-import React from 'react';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-import Slider from 'react-slick';
+import React from "react";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
 const Testimonial = () => {
   const settings = {
@@ -58,6 +58,12 @@ const Testimonial = () => {
             </div>
           </div>
           <div className="testimonial-item wow fadeInUp delay-0-4s">
+            <div className="image">
+              <img
+                src="assets/images/testimonials/testi-author1.jpg"
+                alt="Author"
+              />
+            </div>
             <div className="content">
               <div className="testi-header">
                 <h4>Excellent Works</h4>
